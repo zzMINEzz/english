@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Irregular Verbs</a> |
+        <a href="tenses.html">Tenses</a>
+    </nav>
+    <h2>Irregular Verbs</h2>
+    <input type="text" id="search" placeholder="Search base form..." onkeyup="filterVerbs()">
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Base Form</th>
+                    <th>Past Simple</th>
+                    <th>Past Participle</th>
+                    <th>Translation</th>
+                </tr>
+            </thead>
+            <tbody id="verbs-table">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
